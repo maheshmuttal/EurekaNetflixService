@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ClientModule" />
+        <module name="EurekaServer" />
+        <module name="ServiceModule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ClientModule" target="1.8" />
+      <module name="EurekaNetflixService" target="1.8" />
+      <module name="EurekaServer" target="1.8" />
+      <module name="ServiceModule" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
